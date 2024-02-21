@@ -377,6 +377,7 @@ h1 {
     display: flex;
     margin-top: 7rem;
     justify-content: space-between;
+    /* background-color: aqua; */
 }
 
 /* .section-six:hover {
