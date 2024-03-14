@@ -479,9 +479,10 @@ h1 {
     }
 
     .get-started {
-        padding: 1rem;
+        padding: 10px 3rem;
         background-color: orangered;
         border-radius: 5px;
+        font-size: 4vw;
     }
 
     .hero-section {
@@ -511,9 +512,9 @@ h1 {
 
 
     .button {
-        font-size: 3vw;
+        font-size: 4vw;
         font-weight: 400;
-        padding: 1rem 2rem;
+        padding: 1rem 3rem;
         border-radius: 5px;
 
     }
