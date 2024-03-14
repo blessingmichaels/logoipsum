@@ -504,16 +504,16 @@ h1 {
         margin-bottom: 5rem;
     }
 
-    .outcome p {
+    .outcome {
         font-size: 3vw;
-        font-weight: 400;
+        max-height: 6vh;
     }
 
 
     .button {
         font-size: 3vw;
         font-weight: 400;
-        padding: 1rem;
+        padding: 1rem 2rem;
         border-radius: 5px;
 
     }
@@ -526,7 +526,7 @@ h1 {
     }
 
     .anime {
-        max-width: 60vw;
+        max-width: 65vw;
         height: auto;
     }
 
@@ -594,20 +594,20 @@ h1 {
 
     .icon-one {
         display: flex;
-        justify-content: left;
+        justify-content: center;
     }
 
     .group-two h4 {
         font-size: 6vw;
         line-height: 3vh;
-        text-align: left;
+        text-align: center;
         margin-bottom: 0px;
     }
 
     .group-two p {
         font-size: 4vw;
         line-height: 4vh;
-        text-align: left;
+        text-align: center;
     }
 
     .section-six {
