@@ -948,7 +948,7 @@ h1 {
 
 @media screen and (max-width: 1280px) and (min-width: 769px) {
     body {
-       background-color: rgb(204, 238, 219);
+       /* background-color: rgb(204, 238, 219); */
         padding: 0rem 5rem;
     
     }
@@ -1379,7 +1379,7 @@ h1 {
     }
 
     .click {
-        font-size: 2vw;
+        font-size: 1.5vw;
         line-height: 2vh;
 
 
@@ -1404,7 +1404,7 @@ h1 {
     }
 
     .click-two {
-        font-size: 2vw;
+        font-size: 1.5vw;
         line-height: 3vh;
     }
 
