@@ -370,7 +370,7 @@ h1 {
 
 .click {
     font-family: DM Sans;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 22px;
     color: #5454D4;
@@ -381,7 +381,7 @@ h1 {
 
 .click:hover {
     /* border: 2px solid #5454D4; */
-    padding: 8px 3rem;
+    padding: 8px 2rem;
     color: rgb(50, 34, 202);
     background-color: white;
     border-radius: 8px;
@@ -529,6 +529,13 @@ h1 {
     .anime {
         max-width: 65vw;
         height: auto;
+
+    }
+
+    .anime-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .group-one {
@@ -685,4 +692,744 @@ h1 {
         font-size: 8vw;
         line-height: 3vh;
     }
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+    body {
+        padding: 0rem 2rem;
+        /* background-color: yellowgreen; */
+        overflow-x: hidden;
+    }
+
+    .nav-bar {
+        /* background-color: rgb(160, 221, 186); */
+        align-items: center;
+    }
+
+    .home-one {
+        font-size: 2vw;
+        line-height: 3vh;
+        color: #19191B;
+    }
+
+    .get-started {
+        padding: 1.5rem 3rem;
+    }
+
+    .pisum {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 20vw;
+        margin-bottom: 10px;
+
+    }
+
+    .get-started {
+        padding: 10px 2rem;
+        background-color: orangered;
+        border-radius: 5px;
+        font-family: sans-serif;
+        font-size: 2vw;
+    }
+
+    .hero-section {
+        display: flex;
+        justify-content: space-between;
+        gap: 3rem;
+        margin-top: 2rem;
+
+    }
+
+    .grow h1 {
+        font-size: 5.5vw;
+        line-height: 6vh;
+        text-align: left;
+        color: #19191B;
+        padding-top: 30px;
+    }
+
+    .outcome {
+        font-size: 1.5vw;
+        line-height: 2vh;
+    }
+
+    .nav-items ul {
+        display: flex;
+        padding: 0;
+        gap: 16px;
+
+    }
+
+    .anime {
+        max-width: 50vw;
+        height: 55vh;
+    }
+
+
+    .button {
+        font-size: 1.5vw;
+        padding: 10px 1.5rem;
+        border-radius: 3px;
+    }
+
+    .arrow-down {
+        max-width: 7vw;
+        max-height: 7vh;
+    }
+
+    .ipsum-two {
+        max-width: 12vw;
+        max-height: 12vh;
+    }
+
+    .section-three {
+        /* background-color: black; */
+        display: flex;
+        justify-content: space-between;
+        gap: 3.5rem;
+        margin-top: 7rem;
+    }
+
+
+    .subscription h1 {
+        font-size: 5vw;
+        line-height: 6vh;
+        padding-top: 30px;
+    }
+
+    .daily {
+        font-size: 1.7vw;
+        line-height: 2vh;
+        margin: 0px;
+    }
+
+    .anime-two {
+        max-width: 35vw;
+        height: auto;
+    }
+
+    .learn-more {
+        font-size: 2vw;
+        line-height: 3vh;
+    }
+
+
+    .section-four {
+        margin-top: 7rem;
+        gap: 5rem;
+    }
+
+
+    .in-depth h1 {
+        font-size: 4vw;
+        line-height: 6vh;
+        padding-top: 7rem;
+        margin-top: 0px;
+
+    }
+
+    .accurate {
+        font-size: 1.7vw;
+        line-height: 2vh;
+        margin: 0px;
+    }
+
+    .section-five {
+        margin-top: 8rem;
+    }
+
+    .group-two h4 {
+        font-size: 2vw;
+        line-height: 1vh;
+    }
+
+    .group-two p {
+        font-size: 1.5vw;
+        line-height: 1.5vh;
+    }
+
+    .section-six {
+        display: flex;
+        margin-top: 7rem;
+        /* background-color: #696871; */
+    }
+
+    .yearly {
+        max-height: 0px;
+        max-width: 0px;
+        padding: 1.2rem 3rem;
+        font-size: 2vw;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+    }
+
+    .monthly {
+        max-height: 0px;
+        max-width: 0px;
+        padding: 1.2rem 3rem;
+        font-size: 2vw;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+
+    .section-six h1 {
+        font-size: 4.5vw;
+        line-height: 5vh;
+    }
+
+    .first {
+        padding: 1rem 2.3rem;
+        border-radius: 8px;
+        /* background-color: red; */
+
+
+    }
+
+    .first h1 {
+        font-size: 3vw;
+        line-height: 3vh;
+    }
+
+    .click {
+        font-size: 2vw;
+        line-height: 2vh;
+
+
+    }
+
+    .click:hover {
+        /* border: 2px solid #5454D4; */
+        padding: 8px 1rem;
+        color: rgb(50, 34, 202);
+        background-color: white;
+        border-radius: 8px;
+    }
+
+    .second h1 {
+        font-size: 3vw;
+        line-height: 3vh;
+    }
+
+    .second {
+        padding: 1rem 2rem;
+        border-radius: 5px;
+    }
+
+    .click-two {
+        font-size: 2vw;
+        line-height: 3vh;
+    }
+
+    .click-two:hover {
+        padding: 8px 1rem;
+        border-radius: 8px;
+    }
+
+    .third {
+        padding: 1rem 2.5rem;
+        border-radius: 5px;
+    }
+
+    .third h1 {
+        font-size: 2vw;
+        line-height: 2vh;
+    }
+
+    .last p {
+        font-size: 1.5vw;
+    }
+
+    .last {
+        gap: 0px;
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 769px) {
+    body {
+       background-color: rgb(204, 238, 219);
+        padding: 0rem 5rem;
+    
+    }
+    
+    .nav-bar {
+        gap: 10px;
+    
+    }
+    .home-one {
+        font-size: 1.5vw;
+        line-height: 1vh;
+        color: #19191B;
+    }
+
+
+    .pisum {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 20vw;
+        margin-bottom: 10px;
+
+    }
+
+    .get-started {
+        padding: 10px 1rem;
+        background-color: orangered;
+        border-radius: 5px;
+        font-family: sans-serif;
+        font-size: 2vw;
+    }
+    
+    .hero-section {
+        display: flex;
+        justify-content: space-between;
+        gap: 3rem;
+        margin-top: 2rem;
+
+    }
+
+    .grow h1 {
+        font-size: 5.5vw;
+        line-height: 8vh;
+        text-align: left;
+        color: #19191B;
+        padding-top: 25px;
+    }
+
+    .outcome {
+        font-size: 1.5vw;
+        line-height: 3vh;
+    }
+
+    .nav-items ul {
+        display: flex;
+        padding: 0;
+        gap: 16px;
+
+    }
+
+    .anime {
+        max-width: 55vw;
+        height: 60vh;
+    }
+
+
+    .button {
+        font-size: 1.5vw;
+        padding: 10px 1.5rem;
+        border-radius: 3px;
+    }
+
+    .arrow-down {
+        max-width: 7vw;
+        max-height: 7vh;
+    }
+
+    .ipsum-two {
+        max-width: 12vw;
+        max-height: 12vh;
+    }
+
+    .section-three {
+        /* background-color: black; */
+        display: flex;
+        justify-content: space-between;
+        gap: 2.5rem;
+        margin-top: 8rem;
+    }
+
+
+    .subscription h1 {
+         font-size: 5.5vw;
+        line-height: 8vh;
+        padding-top: 30px;
+    }
+
+    .daily {
+        font-size: 1.5vw;
+        line-height: 2.5vh;
+        margin: 0px;
+    }
+
+    .anime-two {
+        max-width: 30vw;
+        height: auto;
+    }
+
+    .learn-more {
+        font-size: 2vw;
+        line-height: 3vh;
+    }
+
+    
+    .section-four {
+        margin-top: 7rem;
+        gap: 3rem;
+    }
+
+
+    .in-depth h1 {
+        font-size: 5vw;
+        line-height: 5vh;
+        padding-top: 0px;
+
+    }
+
+    .accurate {
+        font-size: 1.7vw;
+        line-height: 2vh;
+        margin: 0px;
+    }
+
+    .section-five {
+        margin-top: 8rem;
+       justify-content: space-between;
+    }
+
+    .group-two h4 {
+        font-size: 2vw;
+        line-height: 1.5vh;
+    }
+
+    .group-two p {
+        font-size: 1.3vw;
+        line-height: 1.7vh;
+    }
+
+    .section-six {
+        display: flex;
+        margin-top: 7rem;
+        /* background-color: #696871; */
+    }
+
+    .yearly {
+        max-height: 0px;
+        max-width: 0px;
+        padding: 1.2rem 3rem;
+        font-size: 2vw;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+    }
+
+    .monthly {
+        max-height: 0px;
+        max-width: 0px;
+        padding: 1.2rem 3rem;
+        font-size: 2vw;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+
+    .section-six h1 {
+        font-size: 4.5vw;
+        line-height: 6vh;
+    }
+
+    
+    .first {
+        padding: 2rem 2.5rem;
+        border-radius: 8px;
+        /* background-color: red; */
+
+
+    }
+
+    .first h1 {
+        font-size: 3vw;
+        line-height: 3vh;
+    }
+
+    .click {
+        font-size: 2vw;
+        line-height: 2vh;
+
+
+    }
+
+    .click:hover {
+        /* border: 2px solid #5454D4; */
+        padding: 8px 1rem;
+        color: rgb(50, 34, 202);
+        background-color: white;
+        border-radius: 8px;
+    }
+
+    .second h1 {
+        font-size: 3vw;
+        line-height: 3vh;
+    }
+
+    .second {
+        padding: 2rem 2rem;
+        border-radius: 5px;
+    }
+
+    .click-two {
+        font-size: 2vw;
+        line-height: 3vh;
+    }
+
+    .click-two:hover {
+        padding: 8px 1rem;
+        border-radius: 8px;
+    }
+
+    .third {
+        padding: 2rem 3rem;
+        border-radius: 5px;
+    }
+
+    .third h1 {
+        font-size: 2vw;
+        line-height: 2vh;
+    }
+
+    .last p {
+        font-size: 1.5vw;
+    }
+
+    .last {
+        gap: 0px;
+        margin-bottom: 4rem;
+    }
+}
+
+
+@media screen and (max-width: 1280px) and (min-width: 900px) {
+    body {
+        padding: 0rem 5rem;
+        /* background-color: yellowgreen; */
+        overflow-x: hidden;
+    }
+
+    .nav-bar {
+        /* background-color: rgb(160, 221, 186); */
+        align-items: center;
+    }
+
+    .home-one {
+        font-size: 2vw;
+        line-height: 3vh;
+        color: #19191B;
+    }
+
+    .get-started {
+        padding: 1.5rem 3rem;
+    }
+
+    .pisum {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 20vw;
+        margin-bottom: 10px;
+
+    }
+
+    .get-started {
+        padding: 10px 2rem;
+        background-color: orangered;
+        border-radius: 5px;
+        font-family: sans-serif;
+        font-size: 2vw;
+    }
+
+    .hero-section {
+        display: flex;
+        justify-content: space-between;
+        gap: 3rem;
+        margin-top: 4rem;
+
+    }
+
+    .grow h1 {
+        font-size: 5.5vw;
+        line-height: 9vh;
+        text-align: left;
+        color: #19191B;
+        padding-top: 30px;
+    }
+
+    .outcome {
+        font-size: 1.5vw;
+        line-height: 3vh;
+    }
+
+    .nav-items ul {
+        display: flex;
+        padding: 0;
+        gap: 16px;
+
+    }
+
+    .anime {
+        max-width: 60vw;
+        height: 60vh;
+    }
+
+
+    .button {
+        font-size: 1.5vw;
+        padding: 10px 1.5rem;
+        border-radius: 3px;
+    }
+
+    .arrow-down {
+        max-width: 7vw;
+        max-height: 7vh;
+    }
+
+    .ipsum-two {
+        max-width: 12vw;
+        max-height: 12vh;
+        margin-top: 3rem;
+    }
+
+    .section-three {
+        /* background-color: black; */
+        display: flex;
+        justify-content: space-between;
+        gap: 7rem;
+        margin-top: 8rem;
+    }
+
+
+    .subscription h1 {
+         font-size: 5.5vw;
+        line-height: 8vh;
+        padding-top: 30px;
+    }
+
+    .daily {
+        font-size: 1.5vw;
+        line-height: 3vh;
+        margin: 0px;
+    }
+
+    .anime-two {
+        max-width: 30vw;
+        height: auto;
+    }
+
+    .learn-more {
+        font-size: 2vw;
+        line-height: 3vh;
+    }
+
+    
+    .section-four {
+        margin-top: 7rem;
+        gap: 5rem;
+    }
+
+
+    .in-depth h1 {
+        font-size: 5vw;
+        line-height: 8vh;
+        padding-top: 0px;
+
+    }
+
+    .accurate {
+        font-size: 1.7vw;
+        line-height: 3vh;
+        margin: 0px;
+    }
+
+    .section-five {
+        margin-top: 8rem;
+       justify-content: space-between;
+    }
+
+    .group-two h4 {
+        font-size: 2vw;
+        line-height: 2vh;
+    }
+
+    .group-two p {
+        font-size: 1.3vw;
+        line-height: 2.5vh;
+    }
+
+    .section-six {
+        display: flex;
+        margin-top: 7rem;
+        gap: 1px;
+        /* background-color: #696871; */
+    }
+    
+    .section-six h1 {
+        font-size: 4.5vw;
+        line-height: 8vh;
+    }
+
+    
+    .first {
+        padding: 2rem 3rem;
+        border-radius: 8px;
+        /* background-color: red; */
+
+
+    }
+
+    .first h1 {
+        font-size: 3vw;
+        line-height: 3vh;
+    }
+
+    .click {
+        font-size: 2vw;
+        line-height: 2vh;
+
+
+    }
+
+    .click:hover {
+        /* border: 2px solid #5454D4; */
+        padding: 8px 1rem;
+        color: rgb(50, 34, 202);
+        background-color: white;
+        border-radius: 8px;
+    }
+
+    .second h1 {
+        font-size: 3vw;
+        line-height: 3vh;
+    }
+
+    .second {
+        padding: 2rem 3rem;
+        border-radius: 5px;
+    }
+
+    .click-two {
+        font-size: 2vw;
+        line-height: 3vh;
+    }
+
+    .click-two:hover {
+        padding: 8px 1rem;
+        border-radius: 8px;
+    }
+
+    .third {
+        padding: 2rem 4rem;
+        border-radius: 5px;
+    }
+
+    .third h1 {
+        font-size: 2vw;
+        line-height: 2vh;
+    }
+
+    .last p {
+        font-size: 1.5vw;
+    }
+
+    .last {
+        gap: 0px;
+        margin-bottom: 4rem;
+    }
+
 }
